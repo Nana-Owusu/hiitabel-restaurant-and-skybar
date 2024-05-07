@@ -46,9 +46,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className=" cointainer px-4 py-6 space-y-3">
+      <section className=" container px-4 py-6 space-y-3">
         <h2 className="text-[#F40000] text-2xl font-medium">Our Values</h2>
-        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-4">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6">
           {OUR_VALUES.map((value) => (
             <div
               key={value.id}
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className=" cointainer px-4 py-6">
+      <section className=" container px-4 py-6 space-y-3">
         <h2 className="text-[#F40000] text-2xl font-medium">Our Menu</h2>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">

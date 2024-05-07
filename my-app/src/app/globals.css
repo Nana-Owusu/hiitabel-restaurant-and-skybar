@@ -20,7 +20,27 @@ body{
 }
 
 .bodyBanner{
-  background-image:url("/bodyBanner.png");
+  background-image:url("/bodyBanner.svg");
   width: 100%;
   height: 100vh;
+}
+
+.aboutBanner{
+  background-image:url("/about-us/aboutBanner.svg");
+  width: 100%;
+  height: 40vh;
+}
+
+.aboutTestimo{
+  background-image:url("/about-us/testimoBg.svg");
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 425px){
+  .aboutTestimo{
+    background-image:url("/about-us/testimoBg.svg");
+    width: 100%;
+    height:fit-content;
+  }
 }
